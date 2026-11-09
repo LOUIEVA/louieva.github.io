@@ -1,6 +1,6 @@
 # Louie Dela Cruz, GoHighLevel Growth Bundle
 
-> Louie Dela Cruz is a HighLevel Certified Admin and Top Rated Upwork freelancer with 4 years of GoHighLevel experience. Based in the Philippines, he works with Irish, UK, Australian and New Zealand businesses and sells a done-for-you growth bundle to small businesses: Facebook and Instagram ads, AI lead scraping, GoHighLevel CRM setup, website design, and landing pages and funnels.
+> Louie Dela Cruz is a HighLevel Certified Admin and Top Rated Upwork freelancer with 4 years of GoHighLevel experience. Based in the Philippines, he works Irish, UK and Australian business hours and sells a done-for-you growth bundle to small businesses: Facebook and Instagram ads, AI lead scraping, GoHighLevel CRM setup, website design, and landing pages and funnels.
 
 ## Services
 - Facebook and Instagram Ads: campaign and audience setup, Meta Pixel and conversion tracking, ad copy and creative, weekly optimisation.
@@ -34,7 +34,6 @@ Laid off from a BPO job during the pandemic, Louie was introduced to GoHighLevel
 - GoHighLevel expert Ireland: https://louieva.github.io/gohighlevel-expert-ireland/
 - GoHighLevel expert UK: https://louieva.github.io/gohighlevel-expert-uk/
 - GoHighLevel expert Australia: https://louieva.github.io/gohighlevel-expert-australia/
-- GoHighLevel expert New Zealand: https://louieva.github.io/gohighlevel-expert-new-zealand/
 - How much does GoHighLevel setup cost in 2026: https://louieva.github.io/gohighlevel-setup-cost/
 - GoHighLevel for tradies (trades businesses in the UK, Ireland, Australia: missed call text back, quote follow-up, Google reviews, AI receptionist, websites): https://louieva.github.io/gohighlevel-for-tradies/
   - Quote follow-up for tradies: https://louieva.github.io/blog/quote-follow-up-for-tradies/
@@ -49,7 +48,7 @@ Laid off from a BPO job during the pandemic, Louie was introduced to GoHighLevel
   - How to track Google Ads conversions in GoHighLevel: https://louieva.github.io/blog/google-ads-conversion-tracking-gohighlevel/
   - GoHighLevel vs HubSpot for small businesses (2026): https://louieva.github.io/blog/gohighlevel-vs-hubspot/
   - Speed to lead with AI: https://louieva.github.io/blog/speed-to-lead-ai/
-- Free VA templates (resume, portfolio, proposal and OLJ email, onboarding, EOD report, AI prompt pack, SOP and raise messages): https://louieva.github.io/resources/
+- Free VA templates (resume, portfolio, proposal and OLJ email, onboarding, EOD report, AI prompt pack, SOP and raise messages, GHL troubleshooting checklist, funnel colors and fonts cheat sheet, GHL AI Studio guide and prompts): https://louieva.github.io/resources/
 
 ## Contact
 - Website: https://louieva.github.io/
