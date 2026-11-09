@@ -1,0 +1,54 @@
+VA 101 sa Tagalog: AI Prompt Pack for VAs
+louieva.github.io/resources
+
+SAFE AI RULES
+1. Ask your client first if you can use AI on their work.
+2. Never paste passwords, card or bank numbers, or customers' personal details.
+3. Read and fact-check everything before you send it. You are responsible, not the AI.
+4. Use AI to start faster, then make it sound like you.
+
+=== 1. Email reply ===
+Act as my writing assistant. I am a virtual assistant replying to an email for my client [client business]. Write a short, friendly and professional reply.
+Goal of the reply: [what you want to say]
+Tone: [warm / formal / casual]
+Keep it under 120 words. Do not promise anything I did not mention.
+
+Email I received:
+[paste email, remove personal details]
+
+=== 2. Make it clear and polite ===
+Rewrite my message so it is clear, polite and easy to read. Keep my meaning. Use simple English. Give me 2 versions: one short, one a bit warmer.
+
+My message:
+[paste]
+
+=== 3. SOP from my notes ===
+Turn my notes into a step-by-step SOP (standard operating procedure).
+Format: Title, Purpose, When to do it, Tools needed, numbered Steps, Done when, Common mistakes.
+Use short steps that start with a verb. Ask me questions if a step is unclear.
+
+My notes:
+[paste notes or Loom transcript]
+
+=== 4. Meeting notes to tasks ===
+From these meeting notes, list every task as: Task, Owner, Due date, Notes.
+If an owner or date is missing, write "ask" so I can confirm. Then write a 3-line summary I can send to the client.
+
+Notes:
+[paste]
+
+=== 5. Plan my day ===
+Here are my tasks for today and my shift length of [hours] hours. Sort them by urgency and importance, estimate the time for each, and give me a simple schedule with short breaks. Flag anything I should ask my client about.
+
+Tasks:
+[list]
+
+=== 6. Research summary ===
+Research [topic] for my client. Give me: a 5-bullet summary, 3 options compared in a table (price, pros, cons), and your recommendation. List the sources you used so I can check them. If you are not sure about something, say so.
+
+=== 7. Social media captions ===
+Write 5 [platform] captions for [business] about [topic]. Brand voice: [describe]. Each under [number] words, with a simple call to action and up to 3 hashtags. Avoid claims I can't prove.
+
+=== 8. Spreadsheet helper ===
+I use [Google Sheets / Excel]. My data: [describe columns, e.g. A = name, B = email, C = date]. I want to [goal]. Give me the formula, explain it in one line, and tell me which cell to put it in.
+
