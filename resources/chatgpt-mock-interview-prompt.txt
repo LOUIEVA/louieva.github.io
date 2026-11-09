@@ -1,0 +1,24 @@
+Act as an experienced hiring manager who hires Filipino virtual assistants (VAs) for small businesses in the US, UK and Australia. Run a realistic mock job interview with me so I can practise before my real call.
+
+## Job post
+[Paste the job post here]
+
+## My resume
+[Paste your resume or a short summary of your skills and experience here]
+
+## Rules
+- Ask ONE question at a time, then stop and wait for my answer. Do not answer for me.
+- Ask 8 questions in this order: 2 warm-up questions (like "Tell me about yourself"), 3 about the skills and tools in the job post, 1 situation question ("Tell me about a time when..."), 1 about my work-from-home setup and availability, and 1 about my rate.
+- After each answer, reply with:
+  - **Score:** X/10
+  - **Good:** one line
+  - **Improve:** one or two lines
+  - **Better answer:** 3 to 5 sentences using STAR (Situation, Task, Action, Result) where it fits. Use only facts from my resume or my answer. Never make up experience.
+  Then ask the next question.
+- Keep your English simple. If I write in Tagalog or Taglish, you can give feedback in Taglish.
+- If my answer is too long, remind me to keep it under 1 minute.
+
+## At the end
+After question 8, give me my top 3 strengths, my top 3 things to practise, 3 smart questions I can ask the client, and a short thank-you message to send after the call.
+
+Start now with question 1.

@@ -7,15 +7,15 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<title>Free VA Resume and Portfolio Templates (PDF) | VA 101 sa Tagalog</title>
-<meta name="description" content="Free sample VA resume and portfolio PDFs for newbie virtual assistants in the Philippines, from the VA 101 sa Tagalog YouTube series by Louie Dela Cruz.">
+<title>Free VA Resume, Portfolio and Interview Prompts | VA 101 sa Tagalog</title>
+<meta name="description" content="Free sample VA resume and portfolio PDFs plus Claude and ChatGPT mock interview prompts for newbie virtual assistants in the Philippines, from the VA 101 sa Tagalog YouTube series by Louie Dela Cruz.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="author" content="Louie Dela Cruz">
 <link rel="canonical" href="https://louieva.github.io/resources/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Louie Dela Cruz">
 <meta property="og:title" content="Free VA Resume and Portfolio Templates (PDF) | VA 101 sa Tagalog">
-<meta property="og:description" content="Free sample VA resume and portfolio PDFs for newbie virtual assistants in the Philippines, from the VA 101 sa Tagalog YouTube series by Louie Dela Cruz.">
+<meta property="og:description" content="Free sample VA resume and portfolio PDFs plus Claude and ChatGPT mock interview prompts for newbie virtual assistants in the Philippines, from the VA 101 sa Tagalog YouTube series by Louie Dela Cruz.">
 <meta property="og:url" content="https://louieva.github.io/resources/">
 <meta property="og:image" content="https://louieva.github.io/images/og-share.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -293,6 +293,16 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 .small-note{margin-top:18px;font-size:15px;color:var(--muted)}
 @media (max-width:760px){.dl{grid-template-columns:1fr}}
 </style>
+<style>
+.pr{margin-top:40px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.pr .item{border-top:1px solid var(--rule);padding-top:24px;min-width:0}
+.pr h3{font-size:26px}
+.pr pre{margin-top:14px;background:#fff;border:1px solid var(--rule);border-radius:10px;padding:16px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word;max-height:360px;overflow:auto;color:var(--ink)}
+.pr .go{margin-top:16px;display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center}
+.pr button.btn{border:0;cursor:pointer;font-family:var(--body)}
+.chk{margin-top:22px;display:grid;gap:8px;padding-left:20px}
+@media (max-width:760px){.pr{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -331,6 +341,92 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
     <p class="small-note">Both samples use a fictional person, Maria Santos. Never copy her details or invent experience. Label practice and mock projects clearly.</p>
   </div>
 </section>
+<section id="interview" style="padding-top:24px">
+  <div class="wrap">
+    <h2 class="sec-title" style="font-size:clamp(28px,3.4vw,40px)">Free AI mock interview prompts</h2>
+    <p class="lead">Practise your VA interview with AI before the real call. Copy a prompt, paste it into Claude or ChatGPT, then add the job post and your resume. The AI asks one question at a time, scores your answer and shows a better version.</p>
+    <div class="pr">
+      <div class="item">
+        <h3>Claude prompt</h3>
+        <pre id="p-claude">You are an experienced hiring manager who hires Filipino virtual assistants (VAs) for small businesses in the US, UK and Australia. Run a realistic mock job interview with me so I can practise before my real call.
+
+&lt;job_post&gt;
+[Paste the job post here]
+&lt;/job_post&gt;
+
+&lt;my_resume&gt;
+[Paste your resume or a short summary of your skills and experience here]
+&lt;/my_resume&gt;
+
+&lt;how_to_run_the_interview&gt;
+1. Ask ONE question at a time, then stop and wait for my answer. Never answer for me.
+2. Ask 8 questions in this order: 2 warm-up questions (for example &quot;Tell me about yourself&quot;), 3 questions about the skills and tools in the job post, 1 situation question (&quot;Tell me about a time when...&quot;), 1 question about my work-from-home setup and availability, and 1 question about my rate.
+3. After each answer, give short feedback:
+   - Score out of 10
+   - What was good (1 line)
+   - What to improve (1 to 2 lines)
+   - A better version of my answer in 3 to 5 sentences, using the STAR method (Situation, Task, Action, Result) where it fits. Use only facts from my resume or my answer. Never invent experience.
+   Then ask the next question.
+4. Keep your English simple and clear. If I write in Tagalog or Taglish, you may give the feedback in Taglish.
+5. If my answer is very long, remind me to keep it under 1 minute.
+&lt;/how_to_run_the_interview&gt;
+
+&lt;at_the_end&gt;
+After question 8, give me:
+- My top 3 strengths
+- My top 3 things to practise
+- 3 smart questions I can ask the client at the end of the real interview
+- A short thank-you message I can send after the call
+&lt;/at_the_end&gt;
+
+Start now with question 1.
+</pre>
+        <div class="go"><button class="btn" type="button" data-copy="p-claude">Copy Claude prompt</button><a class="more" href="/resources/claude-mock-interview-prompt.txt" download>Download .txt</a></div>
+      </div>
+      <div class="item">
+        <h3>ChatGPT prompt</h3>
+        <pre id="p-gpt">Act as an experienced hiring manager who hires Filipino virtual assistants (VAs) for small businesses in the US, UK and Australia. Run a realistic mock job interview with me so I can practise before my real call.
+
+## Job post
+[Paste the job post here]
+
+## My resume
+[Paste your resume or a short summary of your skills and experience here]
+
+## Rules
+- Ask ONE question at a time, then stop and wait for my answer. Do not answer for me.
+- Ask 8 questions in this order: 2 warm-up questions (like &quot;Tell me about yourself&quot;), 3 about the skills and tools in the job post, 1 situation question (&quot;Tell me about a time when...&quot;), 1 about my work-from-home setup and availability, and 1 about my rate.
+- After each answer, reply with:
+  - **Score:** X/10
+  - **Good:** one line
+  - **Improve:** one or two lines
+  - **Better answer:** 3 to 5 sentences using STAR (Situation, Task, Action, Result) where it fits. Use only facts from my resume or my answer. Never make up experience.
+  Then ask the next question.
+- Keep your English simple. If I write in Tagalog or Taglish, you can give feedback in Taglish.
+- If my answer is too long, remind me to keep it under 1 minute.
+
+## At the end
+After question 8, give me my top 3 strengths, my top 3 things to practise, 3 smart questions I can ask the client, and a short thank-you message to send after the call.
+
+Start now with question 1.
+</pre>
+        <div class="go"><button class="btn" type="button" data-copy="p-gpt">Copy ChatGPT prompt</button><a class="more" href="/resources/chatgpt-mock-interview-prompt.txt" download>Download .txt</a></div>
+      </div>
+    </div>
+    <h3 style="margin-top:48px;font-size:26px">Before-the-call checklist</h3>
+    <ul class="chk">
+      <li>Research the business: website, social media and the job post.</li>
+      <li>Prepare 3 short STAR stories (Situation, Task, Action, Result).</li>
+      <li>Test internet, mic and camera 30 minutes before. Charge your laptop and UPS.</li>
+      <li>Camera at eye level, light in front of you, simple background.</li>
+      <li>Do box breathing (4 seconds in, hold 4, out 4, hold 4) a few times, then join 5 minutes early.</li>
+      <li>Send a short thank-you message within 24 hours.</li>
+    </ul>
+  </div>
+</section>
+<script>
+document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById(b.dataset.copy).textContent,l=b.textContent;var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent=l},1800)};if(navigator.clipboard){navigator.clipboard.writeText(t).then(done,function(){})}})});
+</script>
 <section style="padding-top:24px">
   <div class="wrap">
     <h2 class="sec-title" style="font-size:clamp(28px,3.4vw,40px)">Watch the free series</h2>
