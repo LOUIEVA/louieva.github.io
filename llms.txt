@@ -48,7 +48,7 @@ Laid off from a BPO job during the pandemic, Louie was introduced to GoHighLevel
   - How to track Google Ads conversions in GoHighLevel: https://louieva.github.io/blog/google-ads-conversion-tracking-gohighlevel/
   - GoHighLevel vs HubSpot for small businesses (2026): https://louieva.github.io/blog/gohighlevel-vs-hubspot/
   - Speed to lead with AI: https://louieva.github.io/blog/speed-to-lead-ai/
-- Free VA templates (resume, portfolio, proposal and OLJ email, onboarding, EOD report, AI prompt pack, SOP and raise messages, GHL troubleshooting checklist, funnel colors and fonts cheat sheet, GHL AI Studio guide and prompts): https://louieva.github.io/resources/
+- Free VA templates (resume, portfolio, proposal and OLJ email, onboarding, EOD report, AI prompt pack, SOP and raise messages, GHL troubleshooting checklist, funnel colors and fonts cheat sheet, GHL AI Studio guide and prompts, GHL Voice AI receptionist guide): https://louieva.github.io/resources/
 
 ## Contact
 - Website: https://louieva.github.io/
