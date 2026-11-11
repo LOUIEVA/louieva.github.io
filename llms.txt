@@ -59,3 +59,20 @@ Laid off from a BPO job during the pandemic, Louie was introduced to GoHighLevel
 - Book a call: https://linkcore.space/6461
 - Email: louiedelacruz012417@gmail.com
 - WhatsApp: +63 916 190 4865 (https://wa.me/639161904865)
+
+## Service pages
+- [Facebook & Instagram ads](https://louieva.github.io/services/facebook-ads-management/)
+- [AI lead scraping](https://louieva.github.io/services/ai-lead-scraping/)
+- [GoHighLevel CRM setup](https://louieva.github.io/services/gohighlevel-crm-setup/)
+- [Website design](https://louieva.github.io/services/website-design/)
+- [Landing pages and funnels](https://louieva.github.io/services/landing-pages-funnels/)
+- [AI receptionist and chat agents](https://louieva.github.io/services/ai-voice-chat-agents/)
+- [GoHighLevel VA and admin support](https://louieva.github.io/services/gohighlevel-va-support/)
+
+## More blog posts
+- [Facebook ads for tradies: a simple setup that gets quote requests](https://louieva.github.io/blog/facebook-ads-for-tradies/): A plain setup for Facebook ads that bring in quote requests, not just likes.
+- [AI receptionist for small businesses: is it worth it?](https://louieva.github.io/blog/ai-receptionist-small-business/): What an AI receptionist can and can't do, and when it's worth it for a small business.
+- [Lead generation for tradesmen in the UK: build your own, stop renting it](https://louieva.github.io/blog/lead-generation-tradesmen-uk/): How UK trades businesses build their own lead flow instead of renting it from directories.
+- [Tradie lead generation in Australia: getting your own leads beyond hipages](https://louieva.github.io/blog/tradie-lead-generation-australia/): How Aussie tradies build their own lead flow beyond hipages and Airtasker.
+- [Lead generation for small businesses in Ireland: a practical 2026 guide](https://louieva.github.io/blog/lead-generation-ireland-small-business/): A practical, GDPR-friendly guide to more enquiries for Irish small businesses and trades.
+- [How to hire a GoHighLevel VA (and what to check first)](https://louieva.github.io/blog/hire-gohighlevel-va/): What a GHL VA does, the skills to test, and red flags to watch for before you hire.
