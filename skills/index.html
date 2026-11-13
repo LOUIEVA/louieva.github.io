@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<title>Free VA Skills Courses: Paano Matuto ng VA Skills nang Libre</title>
+<meta name="description" content="Libreng courses para sa bawat VA skill: admin, customer support, social media, Canva, email marketing, bookkeeping (QuickBooks, Xero), lead generation, GoHighLevel, automation, Shopify, Amazon, video editing at iba pa.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Louie Dela Cruz">
+<link rel="canonical" href="https://louieva.github.io/skills/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Louie Dela Cruz">
+<meta property="og:title" content="Free VA Skills Courses | VA Skills sa Tagalog">
+<meta property="og:description" content="Libreng courses para sa bawat VA skill: admin, customer support, social media, Canva, email marketing, bookkeeping (QuickBooks, Xero), lead generation, GoHighLevel, automation, Shopify, Amazon, video editing at iba pa.">
+<meta property="og:url" content="https://louieva.github.io/skills/">
+<meta property="og:image" content="https://louieva.github.io/images/og-share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#13202F">
+<style>
+:root{
+  --paper:#F7F3EC; --ink:#13202F; --text:#2B3441; --muted:#5B6370; --rule:#D9D1C4;
+  --blue:#2851C8; --peach:#EFD8C3; --peach-deep:#E4C3A6;
+  --display:'Bricolage Grotesque', Georgia, serif; --body:Inter, system-ui, sans-serif; --hand:Caveat, cursive;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{margin:0;background:var(--paper);color:var(--text);font-family:var(--body);font-size:17px;line-height:1.6;overflow-x:clip;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:4px}
+a:hover{color:var(--blue)}
+h1,h2,h3{font-family:var(--display);color:var(--ink);margin:0;font-weight:700;letter-spacing:-0.02em;line-height:1.05}
+p{margin:0}
+ul{margin:0;padding:0}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:#fff;padding:10px 14px;z-index:10}
+.skip:focus{left:8px}
+.hand{font-family:var(--hand);font-weight:600;color:var(--blue);font-size:28px;line-height:1}
+
+/* buttons: one real button style, everything else is a text link */
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:14px 28px;border-radius:999px;background:var(--ink);color:#fff;font-weight:600;font-size:16px;text-decoration:none;transition:background .2s}
+.btn:hover{background:var(--blue);color:#fff}
+.more{font-weight:600;color:var(--ink);display:inline-flex;align-items:center;min-height:44px}
+
+/* header */
+.top{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 32px;padding-top:28px;padding-bottom:28px}
+.name{font-family:var(--display);font-weight:800;font-size:22px;color:var(--ink);text-decoration:none;letter-spacing:-0.02em}
+.top nav{display:flex;flex-wrap:wrap;gap:6px 28px;font-size:15px}
+.top nav a{text-decoration:none;color:var(--muted);min-height:44px;display:inline-flex;align-items:center}
+.top nav a:hover{color:var(--ink)}
+.top nav a.call{color:var(--ink);font-weight:600;text-decoration:underline}
+
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:24px;align-items:center;padding-top:20px;padding-bottom:40px}
+.hero h1{font-size:clamp(44px,6.4vw,84px);font-weight:800;letter-spacing:-0.035em;line-height:.98}
+.hero h1 .u{position:relative;white-space:nowrap}
+.hero h1 .u svg{position:absolute;left:-2%;bottom:-.12em;width:104%;height:.32em;overflow:visible}
+.hero .intro{margin-top:28px;font-size:19px;max-width:520px;color:var(--text)}
+.hero .go{margin-top:34px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 28px}
+.hero .proof{margin-top:34px;font-size:15px;color:var(--muted)}
+.hero .proof strong{color:var(--ink);font-weight:600}
+
+/* 3D stage (the only decorative piece on the page) */
+.stage-box{--s:1;height:calc(650px * var(--s));position:relative;perspective:1400px;display:flex;justify-content:center}
+.stage-scale{width:500px;height:640px;flex:none;transform-style:preserve-3d;transform-origin:top center;transform:scale(var(--s))}
+.stage{width:500px;height:640px;position:relative;transform-style:preserve-3d;transition:transform .25s ease-out}
+.sway{position:absolute;inset:0;transform-style:preserve-3d;animation:sway 9s ease-in-out infinite}
+.sun{position:absolute;left:40px;top:80px;width:420px;height:420px;border-radius:50%;background:var(--peach);transform:translateZ(-160px)}
+.orbit{position:absolute;left:270px;top:290px;width:0;height:0;transform-style:preserve-3d;animation:spin 26s linear infinite}
+.orbit span,.orbit b{position:absolute;left:0;top:0;transform-style:preserve-3d;display:block}
+.orbit i{position:absolute;left:-300px;top:-.85em;width:600px;text-align:center;font-style:normal;font-family:var(--display);font-weight:700;font-size:var(--lf,19px);color:var(--ink);letter-spacing:-0.01em;white-space:nowrap;animation:face 26s linear infinite}
+.orbit i::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--blue);margin-right:10px;vertical-align:middle}
+.person{position:absolute;left:110px;top:10px;width:280px;height:630px;animation:floaty 5.5s ease-in-out infinite}
+.person img{width:280px;height:630px;object-fit:contain;object-position:center top;filter:drop-shadow(0 28px 26px rgba(19,32,47,.22))}
+.note{position:absolute;right:-30px;top:400px;transform:translateZ(120px) rotate(-6deg);text-align:right}
+.note svg{display:block;margin:4px 0 0 auto}
+
+/* section rhythm */
+section{padding:96px 0}
+.sec-title{font-size:clamp(34px,4.4vw,54px);max-width:760px}
+.lead{margin-top:18px;font-size:19px;max-width:620px}
+
+/* services: an index with rules, no cards */
+.services{border-top:1px solid var(--rule)}
+.svc{display:grid;grid-template-columns:80px minmax(0,1fr) minmax(0,1.2fr);gap:12px 32px;padding:34px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.svc .no{font-family:var(--display);font-weight:500;font-size:18px;color:var(--muted)}
+.svc h3{font-size:30px}
+.svc p{color:var(--text)}
+.svc p + p{margin-top:10px;font-size:15px;color:var(--muted)}
+.svc-wrap{margin-top:56px}
+
+/* flow statement */
+.flow{background:var(--ink);color:#E6EAF0}
+.flow h2{color:#fff}
+.flow .line{margin-top:40px;font-family:var(--display);font-weight:500;font-size:clamp(26px,3.4vw,42px);line-height:1.35;color:#fff;max-width:1020px;letter-spacing:-0.015em}
+.flow .line em{font-style:normal;color:var(--peach)}
+.flow .line .arr{color:#7E8BA0;padding:0 .2em}
+.flow p.small{margin-top:28px;max-width:600px;color:#B8C2D0}
+
+/* pricing: columns split by rules */
+.price-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:20px}
+.cur{font-size:15px;color:var(--muted);display:flex;align-items:center;gap:2px}
+.cur button{min-height:44px;min-width:44px;padding:6px 10px;border:0;background:none;font:600 16px var(--body);color:var(--muted);cursor:pointer;text-decoration:none;border-bottom:2px solid transparent}
+.cur button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--ink)}
+body[data-cur="eur"] .gbp, body[data-cur="eur"] .aud,
+body[data-cur="gbp"] .eur, body[data-cur="gbp"] .aud,
+body[data-cur="aud"] .eur, body[data-cur="aud"] .gbp{display:none}
+.plans{margin-top:56px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:2px solid var(--ink)}
+.plan{padding:32px 32px 8px;border-left:1px solid var(--rule);display:flex;flex-direction:column}
+.plan:first-child{border-left:0;padding-left:0}
+.plan:last-child{padding-right:0}
+.plan h3{font-size:28px}
+.plan .for{margin-top:6px;color:var(--muted);font-size:15px}
+.plan .amt{margin-top:26px;font-family:var(--display);font-weight:800;font-size:46px;color:var(--ink);letter-spacing:-0.03em;line-height:1}
+.plan .then{margin-top:8px;font-size:15px;color:var(--muted)}
+.plan .then b{font-family:var(--display);font-size:22px;color:var(--ink);font-weight:700}
+.plan ul{margin:26px 0 30px;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:16px;flex-grow:1}
+.plan li{padding-left:22px;position:relative}
+.plan li::before{content:"";position:absolute;left:0;top:.7em;width:10px;height:2px;background:var(--ink)}
+.plan .hand{margin-top:14px;transform:rotate(-3deg);display:inline-block}
+.plan.pick h3{color:var(--blue)}
+.fine{margin-top:36px;font-size:14px;color:var(--muted);max-width:760px}
+
+/* agency comparison: plain table */
+.compare{margin-top:72px;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:24px 56px;align-items:start}
+.compare h3{font-size:30px}
+.compare .sub{margin-top:12px;color:var(--muted);font-size:16px}
+table{width:100%;border-collapse:collapse;font-size:16px}
+th,td{text-align:left;padding:14px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:500;color:var(--text);padding-right:20px}
+td{font-family:var(--display);font-weight:700;color:var(--ink);font-size:18px;white-space:nowrap;text-align:right}
+tr.you th,tr.you td{border-bottom:2px solid var(--ink);color:var(--blue)}
+.src{margin-top:12px;font-size:13px;color:var(--muted)}
+
+
+/* results: case studies as an editorial list */
+.cases{margin-top:56px;border-top:2px solid var(--ink)}
+.case{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.4fr);gap:10px 48px;padding:34px 0;border-bottom:1px solid var(--rule)}
+.case h3{font-size:30px}
+.case .what{margin-top:8px;font-size:15px;color:var(--muted)}
+.case p{font-size:17px}
+.case .win{margin-top:12px;font-family:var(--display);font-weight:700;font-size:22px;color:var(--blue);letter-spacing:-0.01em}
+
+/* testimonials: real Upwork reviews, set as type not cards */
+.words{background:#FFFFFF;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.big-quote{margin:48px 0 0;max-width:980px}
+.big-quote p{font-family:var(--display);font-weight:500;font-size:clamp(24px,2.8vw,34px);line-height:1.35;color:var(--ink);letter-spacing:-0.015em}
+.big-quote p::before{content:"\201C";display:block;font-size:110px;line-height:.6;color:var(--peach-deep);margin-bottom:10px}
+blockquote footer.who{margin-top:22px;font-size:15px;color:var(--muted);border-top:0;padding:0}
+blockquote .who strong{color:var(--ink);font-weight:600}
+.stars{color:#C9831F;letter-spacing:2px;margin-right:8px}
+.small-quotes{margin-top:56px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 56px;border-top:1px solid var(--rule);padding-top:40px}
+.small-quotes blockquote{margin:0}
+.small-quotes p{font-size:19px;line-height:1.6;color:var(--ink)}
+.on-upwork{margin-top:40px}
+
+/* video testimonials */
+.vids{margin-top:48px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 40px}
+.vid video{display:block;width:100%;aspect-ratio:16/9;background:#0E1724;border-radius:4px;object-fit:contain}
+.vid h3{margin-top:18px;font-size:22px}
+.vid .role{font-size:15px;color:var(--muted);margin-top:2px}
+.vid blockquote{margin:14px 0 0;font-size:17px;line-height:1.6;color:var(--ink)}
+.vid details{margin-top:10px;font-size:15px;color:var(--muted)}
+.vid summary{cursor:pointer;min-height:44px;display:inline-flex;align-items:center;font-weight:600;color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+.vid details p{margin-top:6px;line-height:1.7}
+.vid .fallback{display:none;margin-top:10px}
+.vid.nofile .fallback{display:block}
+.written{margin-top:72px;border-top:1px solid var(--rule);padding-top:8px}
+
+/* about: photo + letter */
+.about{background:var(--peach)}
+.about .wrap{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:72px;align-items:center}
+.photo{perspective:1200px;display:flex;justify-content:center}
+.tilt{position:relative;width:380px;max-width:100%;animation:tiltcard 11s ease-in-out infinite;transform-style:preserve-3d}
+.tilt img{width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;border-radius:6px;box-shadow:0 40px 60px -32px rgba(19,32,47,.55)}
+.tilt::after{content:"";position:absolute;inset:0;border:2px solid var(--ink);border-radius:6px;transform:translateZ(-40px) translate(18px,18px)}
+.letter h2{font-size:clamp(34px,4vw,50px)}
+.letter p{margin-top:20px;font-size:18px;line-height:1.75;color:#2E2A26}
+.letter .kick{font-family:var(--hand);font-size:30px;color:#7A4A28;margin:0 0 6px}
+.letter .sig{margin-top:26px;font-size:46px;color:var(--ink);transform:rotate(-4deg);display:inline-block}
+.letter .facts{margin-top:28px;font-size:15px;color:#4A4038}
+
+/* faq: plain details list */
+.faq{margin-top:48px;border-top:2px solid var(--ink);max-width:900px}
+.faq details{border-bottom:1px solid var(--rule)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:24px;align-items:center;padding:24px 0;min-height:44px;font-family:var(--display);font-weight:700;font-size:22px;color:var(--ink)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-family:var(--body);font-weight:400;font-size:28px;color:var(--muted);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 0 26px;max-width:740px;color:var(--text)}
+
+/* closing */
+.end{padding:40px 0 0;overflow:hidden}
+.end .wrap{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:32px;align-items:end}
+.end h2{font-size:clamp(48px,7vw,96px);font-weight:800;letter-spacing:-0.04em;line-height:.95}
+.end p{margin-top:22px;font-size:19px;max-width:520px}
+.end .go{margin:34px 0 96px;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center}
+.end .me{position:relative;height:440px;display:flex;justify-content:center}
+.end .me::before{content:"";position:absolute;bottom:-90px;width:320px;height:320px;border-radius:50%;background:var(--peach)}
+.end .me div{position:relative;animation:floaty 5.5s ease-in-out infinite}
+.end .me img{height:440px;width:auto;filter:drop-shadow(0 20px 22px rgba(19,32,47,.2))}
+
+footer{border-top:1px solid var(--rule);padding:30px 0 40px;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 32px}
+footer a{color:var(--muted)}
+footer .find{display:flex;flex-wrap:wrap;gap:0 22px}
+
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@keyframes sway{0%,100%{transform:rotateY(-10deg) rotateX(2deg)}50%{transform:rotateY(10deg) rotateX(-2deg)}}
+@keyframes spin{from{transform:rotateX(-12deg) rotateY(0)}to{transform:rotateX(-12deg) rotateY(360deg)}}
+@keyframes face{from{transform:rotateY(0) rotateX(12deg)}to{transform:rotateY(-360deg) rotateX(12deg)}}
+@keyframes tiltcard{0%,100%{transform:rotateY(-10deg) rotateX(3deg)}50%{transform:rotateY(8deg) rotateX(-2deg)}}
+
+@media (max-width:900px){
+  .hero,.about .wrap,.compare,.end .wrap{grid-template-columns:minmax(0,1fr)}
+  .stage-box{--s:.66}
+  .note{display:none}
+  .plans{grid-template-columns:minmax(0,1fr)}
+  .plan,.plan:first-child,.plan:last-child{border-left:0;padding:32px 0 8px;border-bottom:1px solid var(--rule)}
+  .hero h1 .u{white-space:normal;text-decoration:underline;text-decoration-color:var(--blue);text-decoration-thickness:.07em;text-underline-offset:.14em;text-decoration-skip-ink:none}
+  .hero h1 .u svg{display:none}
+  .svc{grid-template-columns:48px minmax(0,1fr)}
+  .case,.small-quotes,.vids{grid-template-columns:minmax(0,1fr)}
+  .svc p:first-of-type{grid-column:2}
+  .svc .detail{grid-column:2}
+  .end .me{height:340px}
+  .end .me img{height:340px}
+  .about .wrap{gap:48px}
+  section{padding:72px 0}
+}
+@media (max-width:1100px) and (min-width:901px){
+  .stage-box{--s:.78}
+}
+@media (max-width:600px){
+  .wrap{padding:0 20px}
+  .top{padding-top:20px;padding-bottom:12px}
+  .top nav{gap:0 20px}
+  .stage-box{--s:.56}
+  .hero .intro,.lead,.end p{font-size:18px}
+  .svc{grid-template-columns:36px minmax(0,1fr);gap:8px 14px}
+  .svc h3,.case h3,.compare h3{font-size:26px}
+  .plan .amt{font-size:42px}
+  .compare tr{display:grid;grid-template-columns:minmax(0,1fr);border-bottom:1px solid var(--rule)}
+  .compare tr.you{border-bottom:2px solid var(--ink)}
+  .compare th,.compare td,.compare tr.you th,.compare tr.you td{border:0;padding:0}
+  .compare th{padding-top:14px}
+  .compare td{text-align:left;white-space:normal;padding:2px 0 14px}
+  .faq summary{font-size:20px}
+  section{padding:60px 0}
+  .end .go{margin-bottom:64px}
+}
+footer a{display:inline-flex;align-items:center;min-height:44px}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  html{scroll-behavior:auto}
+}
+
+.crumbs{font-size:14px;color:var(--muted);padding-top:4px}
+.crumbs a{color:var(--muted)}
+.ph{padding-top:28px;padding-bottom:56px;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:40px;align-items:center}
+.ph h1{font-size:clamp(38px,5.2vw,68px);font-weight:800;letter-spacing:-0.035em;line-height:1}
+.ph .intro{margin-top:24px;font-size:19px;max-width:600px}
+.ph .go{margin-top:30px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 28px}
+.ph .side{display:flex;justify-content:center}
+.ph .side .disc{position:relative;width:320px;height:420px}
+.ph .side .disc::before{content:"";position:absolute;left:0;right:0;bottom:0;height:320px;border-radius:50%;background:var(--peach)}
+.ph .side img{position:relative;height:420px;width:auto;margin:0 auto;filter:drop-shadow(0 20px 22px rgba(19,32,47,.2))}
+.prose{max-width:760px}
+.prose h2{font-size:clamp(28px,3.4vw,40px);margin:56px 0 0}
+.prose h3{font-size:24px;margin:34px 0 0}
+.prose p,.prose ul,.prose ol{margin-top:16px}
+.prose ul,.prose ol{padding-left:22px}
+.prose li{margin-top:8px}
+.prose table{margin-top:20px}
+.prose td{white-space:normal}
+.note-box{margin-top:28px;background:#fff;border:1px solid var(--rule);border-left:4px solid var(--blue);padding:20px 22px;border-radius:4px}
+.areas{display:flex;flex-wrap:wrap;gap:6px 22px}
+@media (max-width:900px){.ph{grid-template-columns:minmax(0,1fr)}.ph .side .disc{width:260px;height:340px}.ph .side .disc::before{height:260px}.ph .side img{height:340px}}
+@media (max-width:600px){.ph h1{font-size:36px}.prose td{font-size:16px}}
+</style>
+<style>
+.dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px;margin-top:40px}
+.dl .item{border-top:1px solid var(--rule);padding-top:24px}
+.dl img{width:100%;border:1px solid var(--rule);border-radius:10px;background:#fff}
+.dl h2{font-size:30px;margin-top:20px}
+.dl p{margin-top:10px}
+.dl .go{margin-top:20px;display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center}
+.vids{margin-top:24px;display:grid;gap:10px}
+.small-note{margin-top:18px;font-size:15px;color:var(--muted)}
+@media (max-width:760px){.dl{grid-template-columns:1fr}}
+</style>
+<style>
+.pr{margin-top:40px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.pr .item{border-top:1px solid var(--rule);padding-top:24px;min-width:0}
+.pr h3{font-size:26px}
+.pr pre{margin-top:14px;background:#fff;border:1px solid var(--rule);border-radius:10px;padding:16px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word;max-height:360px;overflow:auto;color:var(--ink)}
+.pr .go{margin-top:16px;display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center}
+.pr button.btn{border:0;cursor:pointer;font-family:var(--body)}
+.chk{margin-top:22px;display:grid;gap:8px;padding-left:20px}
+@media (max-width:760px){.pr{grid-template-columns:1fr}}
+</style>
+<style>
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.chips a{display:inline-flex;align-items:center;min-height:40px;padding:6px 16px;border:1px solid var(--rule);border-radius:999px;text-decoration:none;font-size:15px;background:#fff}
+.chips a:hover{border-color:var(--ink)}
+.sk{border-top:1px solid var(--rule);padding:40px 0}
+.sk h2{font-size:clamp(28px,3.4vw,40px)}
+.sk .what{margin-top:12px;font-size:18px;max-width:760px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:24px}
+.box{background:#fff;border:1px solid var(--rule);border-radius:16px;padding:22px 24px}
+.box h3{font-size:20px;margin-bottom:10px}
+.box ul,.box ol{padding-left:20px;display:grid;gap:6px}
+.box li b{color:var(--ink)}
+.courses{margin-top:22px;display:grid;gap:12px}
+.course{display:block;background:var(--ink);color:#fff;border-radius:14px;padding:16px 20px;text-decoration:none}
+.course:hover{background:var(--blue);color:#fff}
+.course b{font-size:17px}.course span{display:block;font-size:14px;color:#C9D3E0;margin-top:4px}
+.proj{margin-top:18px;padding:16px 20px;border-left:4px solid var(--blue);background:var(--peach);border-radius:0 12px 12px 0}
+.vid{margin-top:12px;font-size:15px;color:var(--muted)}
+@media (max-width:760px){.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap top">
+  <a class="name" href="/">Louie Dela Cruz</a>
+  <nav aria-label="Main">
+    <a href="/#services">Services</a>
+    <a href="/gohighlevel-for-tradies/">For tradies</a>
+    <a href="/case-studies/">Case studies</a>
+    <a href="/#pricing">Pricing</a>
+    <a href="/blog/">Blog</a>
+    <a href="/gohighlevel-setup-cost/">Costs guide</a>
+    <a class="call" href="https://linkcore.space/6461" rel="noopener" target="_blank">Book a call</a>
+  </nav>
+</header>
+<main id="main">
+<div class="wrap"><p class="crumbs"><a href="/">Home</a> / <a href="/resources/">Free VA resources</a> / VA skills</p></div>
+<section style="padding-top:24px"><div class="wrap">
+<h1 class="sec-title">Libreng courses para sa bawat VA skill</h1>
+<p class="lead">Pumili ng isang skill, aralin gamit ang libreng courses, tapos gumawa ng practice project para sa portfolio mo. Kasama ito ng <b>VA Skills sa Tagalog</b> series sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+<div class="chips"><a href="#admin">Admin / Executive VA</a><a href="#support">Customer Support VA</a><a href="#social">Social Media VA</a><a href="#design">Graphic Design VA (Canva)</a><a href="#email">Email Marketing VA</a><a href="#bookkeeping">Bookkeeping VA (QuickBooks at Xero)</a><a href="#leadgen">Lead Generation VA</a><a href="#pm">Project Management VA</a><a href="#ai">AI Tools para sa VA</a><a href="#ghl">GoHighLevel VA</a><a href="#automation">Automation VA (Zapier, Make, n8n)</a><a href="#wordpress">WordPress / Website VA</a><a href="#seo">SEO VA</a><a href="#shopify">Shopify / Ecommerce VA</a><a href="#amazon">Amazon VA</a><a href="#video">Video Editing VA</a><a href="#writing">Copywriting / Content Writing VA</a><a href="#podcast">Podcast VA</a><a href="#ads">Paid Ads VA (Meta at Google Ads)</a></div>
+<div class="box" style="margin-top:30px"><h3>Saan magsisimula (para sa lahat ng skills)</h3><div class="courses"><a class="course" href="https://e-tesda.gov.ph" target="_blank" rel="noopener"><b>TESDA Online Program</b><span>Libreng online courses ng gobyerno, kasama ang AI at digital skills.</span></a><a class="course" href="https://academy.hubspot.com/" target="_blank" rel="noopener"><b>HubSpot Academy</b><span>Libreng marketing, sales at service courses na may certificate.</span></a><a class="course" href="https://skillshop.withgoogle.com/" target="_blank" rel="noopener"><b>Google Skillshop</b><span>Libreng training ng Google para sa Ads, Analytics at iba pa.</span></a></div>
+<p class="vid">Tip: isang skill lang muna. Kapag may sample ka na sa portfolio, saka mag-apply. Lahat ng links ay papunta sa opisyal na website ng bawat course. Libre ang courses sa oras ng pagsulat nito, pero puwedeng magbago, kaya i-check palagi sa mismong site.</p></div>
+</div></section>
+<section class="sk" id="admin"><div class="wrap">
+<h2>Admin / Executive VA</h2><p class="what">Ikaw ang kanang kamay ng client: email, calendar, files at maliliit na tasks na kumakain ng oras niya.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Inbox at calendar management</li><li>Pag-book ng meetings at travel</li><li>Data entry at pag-ayos ng files</li><li>Paggawa ng docs, sheets at reports</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Google Workspace</b>: Gmail, Calendar, Drive, Docs, Sheets</li><li><b>Microsoft 365</b>: Outlook, Word, Excel</li><li><b>Calendly</b>: Booking ng meetings</li><li><b>Password manager</b>: Ligtas na access sa accounts</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang Gmail, Calendar at Drive</li><li>Sanayin ang Docs at Sheets basics</li><li>Gumawa ng sample na inbox at calendar system</li><li>Ilagay sa portfolio ang SOP na ginawa mo</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://support.google.com/a/users/answer/9389764" target="_blank" rel="noopener"><b>Google Workspace Learning Center</b><span>Libreng training at tutorials ng Google para sa Gmail, Calendar, Drive, Docs at Sheets.</span></a><a class="course" href="https://e-tesda.gov.ph" target="_blank" rel="noopener"><b>TESDA Online Program</b><span>Libreng online courses ng TESDA, may digital at entrepreneurship courses.</span></a><a class="course" href="https://academy.hubspot.com/" target="_blank" rel="noopener"><b>HubSpot Academy</b><span>Libreng business at marketing courses na may certificate.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng sample na inbox labels at weekly calendar para sa isang pretend na client, tapos isulat ang SOP.</p><p class="vid">Panoorin din: VA 101 Ep 31: Inbox at Calendar Management, VA 101 Ep 34: Google Docs at Sheets sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="support"><div class="wrap">
+<h2>Customer Support VA</h2><p class="what">Ikaw ang sumasagot sa customers ng client sa email, chat o tickets, nang mabilis at magalang.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Pagsagot sa emails at chat</li><li>Pag-handle ng tickets, refunds at complaints</li><li>Pag-update ng order at customer info</li><li>Paggawa ng saved replies at FAQ</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Zendesk</b>: Helpdesk at tickets</li><li><b>Gorgias o Freshdesk</b>: Helpdesk para sa ecommerce</li><li><b>Gmail at chat</b>: Shared inbox at live chat</li><li><b>Google Sheets</b>: Tracking ng issues</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang customer service basics at tamang tono</li><li>Kilalanin ang helpdesk: tickets, status, macros</li><li>Mag-practice ng sagot sa galit na customer</li><li>Gumawa ng sample na saved replies</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://training.zendesk.com" target="_blank" rel="noopener"><b>Zendesk Training</b><span>Libreng on-demand courses ng Zendesk para sa agents at admins.</span></a><a class="course" href="https://academy.hubspot.com/" target="_blank" rel="noopener"><b>HubSpot Academy</b><span>May libreng customer service courses na may certificate.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng 10 saved replies para sa delay, refund at galit na customer, gamit ang 4A formula.</p><p class="vid">Panoorin din: VA 101 Ep 35: Customer Support VA sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="social"><div class="wrap">
+<h2>Social Media VA</h2><p class="what">Ikaw ang nag-aalaga ng Facebook, Instagram at iba pang page ng client: content, schedule at comments.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Content calendar at captions</li><li>Pag-schedule ng posts</li><li>Pagsagot sa comments at messages</li><li>Weekly report ng reach at engagement</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Meta Business Suite</b>: Schedule at inbox ng FB at IG</li><li><b>Canva</b>: Graphics at reels covers</li><li><b>CapCut</b>: Short videos</li><li><b>Google Sheets</b>: Content calendar</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang Meta Business Suite</li><li>Matutong gumawa ng content calendar</li><li>Mag-practice ng captions at simpleng graphics</li><li>Gumawa ng sample na 1 linggong content</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://www.facebookblueprint.com/" target="_blank" rel="noopener"><b>Meta Blueprint</b><span>Libreng courses ng Meta tungkol sa Facebook at Instagram para sa business.</span></a><a class="course" href="https://academy.hubspot.com/" target="_blank" rel="noopener"><b>HubSpot Academy</b><span>May libreng social media marketing course na may certificate.</span></a><a class="course" href="https://www.canva.com/design-school/" target="_blank" rel="noopener"><b>Canva Design School</b><span>Libreng design courses ng Canva.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng 7-day content calendar at 3 sample posts para sa isang local business.</p><p class="vid">Panoorin din: VA 101 Ep 36: Social Media VA Basics sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="design"><div class="wrap">
+<h2>Graphic Design VA (Canva)</h2><p class="what">Ikaw ang gumagawa ng graphics ng client: social posts, thumbnails, flyers at presentations.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Social media graphics</li><li>YouTube thumbnails</li><li>Flyers at simpleng ads</li><li>Brand kit at templates</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Canva</b>: Pinakamadaling simulan</li><li><b>Adobe Express</b>: Alternatibo sa Canva</li><li><b>Figma</b>: Para sa mas advanced na design</li><li><b>Remove.bg o Canva BG remover</b>: Pag-alis ng background</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang design basics: kulay, font, spacing</li><li>Gamitin ang Canva templates nang tama</li><li>Gumawa ng sariling brand kit</li><li>Mag-ipon ng 10 sample designs sa portfolio</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://www.canva.com/design-school/" target="_blank" rel="noopener"><b>Canva Design School</b><span>Libreng courses ng Canva, mula basics hanggang social media design.</span></a><a class="course" href="https://academy.hubspot.com/" target="_blank" rel="noopener"><b>HubSpot Academy</b><span>May libreng content at marketing courses na tutulong sa design para sa marketing.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng brand kit at 5 social posts para sa isang pretend na coffee shop.</p><p class="vid">Panoorin din: VA 101 Ep 33: Canva Basics para sa VA sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="email"><div class="wrap">
+<h2>Email Marketing VA</h2><p class="what">Ikaw ang gumagawa at nagpapadala ng newsletters at automated emails ng client.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Pag-setup ng newsletters</li><li>Welcome at follow-up email sequences</li><li>Pag-ayos ng email list at tags</li><li>Pagbasa ng open at click rates</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Mailchimp</b>: Sikat sa small business</li><li><b>Klaviyo</b>: Sikat sa ecommerce at Shopify</li><li><b>GoHighLevel</b>: Email at automation sa isang CRM</li><li><b>Canva</b>: Email graphics</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang email marketing basics</li><li>Pumili ng isang tool at gumawa ng free account</li><li>Gumawa ng welcome email sequence</li><li>Aralin ang basic reports at deliverability</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://mailchimp.com/help/mailchimp-academy/" target="_blank" rel="noopener"><b>Mailchimp Academy</b><span>Libreng courses ng Mailchimp tungkol sa email marketing.</span></a><a class="course" href="https://academy.klaviyo.com/" target="_blank" rel="noopener"><b>Klaviyo Academy</b><span>Libreng courses, quick guides at certificate para sa ecommerce email.</span></a><a class="course" href="https://academy.hubspot.com/" target="_blank" rel="noopener"><b>HubSpot Academy</b><span>May libreng email marketing course na may certificate.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng 3-email welcome sequence para sa isang online shop, kasama ang subject lines.</p><p class="vid">Panoorin din: GHL sa Tagalog Ep 15: Email Marketing sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="bookkeeping"><div class="wrap">
+<h2>Bookkeeping VA (QuickBooks at Xero)</h2><p class="what">Ikaw ang nagre-record ng income at expenses ng client sa accounting software, para malinis ang libro niya.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Pag-record ng sales at expenses</li><li>Bank reconciliation</li><li>Invoices at bills</li><li>Simpleng monthly reports</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>QuickBooks Online</b>: Sikat sa US at iba pang bansa</li><li><b>Xero</b>: Sikat sa Australia, NZ at UK</li><li><b>Google Sheets</b>: Pang-track at checking</li><li><b>Dext o Hubdoc</b>: Pag-scan ng resibo</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang accounting basics: debit, credit, assets</li><li>Pumili: QuickBooks o Xero depende sa target na client</li><li>Tapusin ang libreng certification</li><li>Mag-practice sa demo company</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://quickbooks.intuit.com/global/accountants-software/events/certification" target="_blank" rel="noopener"><b>QuickBooks Online Certification</b><span>Libreng ProAdvisor training at exam gamit ang QuickBooks Online Accountant.</span></a><a class="course" href="https://learning.central.xero.com/student/catalog/browse" target="_blank" rel="noopener"><b>Xero Product Training</b><span>Training ng Xero sa Xero Central, kasama ang advisor certification.</span></a><a class="course" href="https://e-tesda.gov.ph" target="_blank" rel="noopener"><b>TESDA Online Program</b><span>Libreng online courses ng TESDA.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng sample na bank reconciliation sa demo company ng QuickBooks o Xero at i-screenshot ang steps.</p>
+</div></section><section class="sk" id="leadgen"><div class="wrap">
+<h2>Lead Generation VA</h2><p class="what">Ikaw ang naghahanap ng posibleng customers ng client at nag-aayos ng contact details nila sa isang sheet.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Research sa Google Maps at LinkedIn</li><li>Pagkuha ng business contact info</li><li>Pag-verify at pag-ayos ng data</li><li>Pag-upload ng leads sa CRM</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Google Sheets</b>: Lead list</li><li><b>LinkedIn</b>: Decision makers</li><li><b>Apollo</b>: Prospecting tool na may free plan</li><li><b>Google Maps</b>: Local businesses</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Alamin ang ideal customer ng client</li><li>Aralin ang research sa Maps, LinkedIn at websites</li><li>Matutong maglinis ng data sa Sheets</li><li>Gumawa ng sample na 20 leads</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://www.apollo.io/academy" target="_blank" rel="noopener"><b>Apollo Academy</b><span>Libreng guides at training ng Apollo tungkol sa prospecting at outbound.</span></a><a class="course" href="https://academy.hubspot.com/" target="_blank" rel="noopener"><b>HubSpot Academy</b><span>May libreng sales at inbound courses.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng 20 leads ng isang industry, kumpleto sa company, contact, website at source.</p><p class="vid">Panoorin din: VA 101 Ep 39: Lead Generation VA sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="pm"><div class="wrap">
+<h2>Project Management VA</h2><p class="what">Ikaw ang nag-aayos ng tasks, deadlines at updates ng team ng client para walang nakakalimutan.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Pag-setup ng boards at projects</li><li>Pag-assign at pag-follow up ng tasks</li><li>Weekly status updates</li><li>Paggawa ng SOP at templates</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Trello</b>: Simple na boards</li><li><b>Asana</b>: Projects at timelines</li><li><b>ClickUp</b>: All-in-one workspace</li><li><b>Slack</b>: Team communication</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang isang tool muna, halimbawa Trello</li><li>Matutong gumawa ng workflow: To do, Doing, Done</li><li>Gumawa ng weekly report template</li><li>Aralin ang Asana o ClickUp pagkatapos</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://university.clickup.com" target="_blank" rel="noopener"><b>ClickUp University</b><span>Libreng courses at certification ng ClickUp.</span></a><a class="course" href="https://academy.asana.com" target="_blank" rel="noopener"><b>Asana Academy</b><span>Libreng self-paced training ng Asana.</span></a><a class="course" href="https://trello.com/guide" target="_blank" rel="noopener"><b>Trello Guide</b><span>Libreng step-by-step guide ng Trello.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng project board para sa isang website launch, may tasks, owners at deadlines.</p><p class="vid">Panoorin din: VA 101 Ep 32: Trello, Asana at ClickUp sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="ai"><div class="wrap">
+<h2>AI Tools para sa VA</h2><p class="what">Gamit ang AI gaya ng ChatGPT, Claude at Gemini, mas mabilis kang magsulat, mag-research at mag-ayos ng data.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Pag-draft ng emails at captions</li><li>Research at summaries</li><li>Paglinis ng data at formulas</li><li>Paggawa ng SOP at templates</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>ChatGPT</b>: Writing at brainstorming</li><li><b>Claude</b>: Writing at mahahabang documents</li><li><b>Gemini</b>: Kasama sa Google Workspace</li><li><b>Canva AI</b>: Graphics at design</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang basic prompting: konteksto, task, format</li><li>Gamitin sa totoong tasks araw-araw</li><li>Laging i-check ang output bago ipasa</li><li>Igalang ang privacy ng data ng client</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://anthropic.skilljar.com/ai-fluency-for-small-businesses" target="_blank" rel="noopener"><b>Anthropic Academy: AI Fluency for Small Businesses</b><span>Libreng course tungkol sa tamang paggamit ng AI sa trabaho.</span></a><a class="course" href="https://www.elementsofai.com" target="_blank" rel="noopener"><b>Elements of AI</b><span>Libreng intro course tungkol sa AI, walang coding.</span></a><a class="course" href="https://e-tesda.gov.ph" target="_blank" rel="noopener"><b>TESDA Online Program</b><span>May libreng AI at digital skills courses.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng prompt library na may 10 prompts para sa VA tasks, may halimbawa ng output.</p><p class="vid">Panoorin din: VA 101 Ep 17: AI Tools para sa VA, VA at AI sa Tagalog playlist sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="ghl"><div class="wrap">
+<h2>GoHighLevel VA</h2><p class="what">Ikaw ang nagse-setup at nag-aalaga ng GoHighLevel ng client: CRM, funnels, workflows at automations.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Pag-setup ng sub-account at pipelines</li><li>Funnels, websites at forms</li><li>Workflows at automations</li><li>Calendars, emails at SMS</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>GoHighLevel</b>: All-in-one CRM at marketing</li><li><b>Google Workspace</b>: Email at domain setup</li><li><b>Canva</b>: Funnel graphics</li><li><b>Zapier o Make</b>: Ibang integrations</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang basics: agency vs sub-account</li><li>Gumawa ng pipeline at form</li><li>Gumawa ng simpleng workflow</li><li>Gumawa ng funnel at i-portfolio ito</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://help.gohighlevel.com/support/solutions" target="_blank" rel="noopener"><b>HighLevel Help Center</b><span>Opisyal na help articles at guides ng HighLevel.</span></a><a class="course" href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener"><b>GHL sa Tagalog (YouTube)</b><span>Libreng GHL series sa Tagalog, step by step.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng lead capture funnel na may form, pipeline at follow-up workflow.</p><p class="vid">Panoorin din: GHL sa Tagalog playlist (Ep 1 pataas) sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="automation"><div class="wrap">
+<h2>Automation VA (Zapier, Make, n8n)</h2><p class="what">Ikaw ang nagkokonekta ng apps ng client para kusa nang tumakbo ang paulit-ulit na trabaho.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Form papunta sa CRM at email</li><li>Auto-save ng files at data</li><li>Notifications sa Slack o email</li><li>Simpleng AI workflows</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Zapier</b>: Pinakamadaling simulan</li><li><b>Make</b>: Visual at flexible</li><li><b>n8n</b>: Open-source at maraming AI features</li><li><b>Google Sheets</b>: Pinakakaraniwang data source</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang trigger at action</li><li>Gumawa ng unang simpleng automation</li><li>Matutong mag-test at mag-ayos ng error</li><li>Mag-document ng bawat workflow</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://learn.zapier.com" target="_blank" rel="noopener"><b>Zapier Learn</b><span>Short courses gaya ng Building your first Zap.</span></a><a class="course" href="https://academy.make.com/" target="_blank" rel="noopener"><b>Make Academy</b><span>Libreng courses ng Make, may badges.</span></a><a class="course" href="https://n8n.io/education/" target="_blank" rel="noopener"><b>n8n Academy</b><span>Libreng Quickstart at Foundations courses na may certificate.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng automation: Google Form papunta sa Google Sheets at email notification.</p><p class="vid">Panoorin din: VA at AI sa Tagalog playlist sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="wordpress"><div class="wrap">
+<h2>WordPress / Website VA</h2><p class="what">Ikaw ang nag-a-update ng website ng client: pages, blog posts, images at plugins.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Pag-upload ng blog posts</li><li>Pag-edit ng pages</li><li>Pag-update ng plugins at backups</li><li>Basic na SEO settings</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>WordPress</b>: Pinakasikat na website builder</li><li><b>Elementor</b>: Drag and drop na page builder</li><li><b>Canva</b>: Website images</li><li><b>Google Search Console</b>: Pag-check ng site sa Google</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang WordPress dashboard</li><li>Gumawa ng post at page</li><li>Aralin ang plugins at backups</li><li>Gumawa ng sample website</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://learn.wordpress.org/course/beginner-wordpress-user/" target="_blank" rel="noopener"><b>Learn WordPress: Beginner WordPress User</b><span>Libreng opisyal na course ng WordPress.</span></a><a class="course" href="https://learn.wordpress.org/" target="_blank" rel="noopener"><b>Learn WordPress</b><span>Libreng tutorials, courses at online workshops.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng 3-page sample website na may home, services at contact.</p><p class="vid">Panoorin din: GHL sa Tagalog Ep 13: Funnels at Websites sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="seo"><div class="wrap">
+<h2>SEO VA</h2><p class="what">Ikaw ang tumutulong para lumabas sa Google ang website ng client.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Keyword research</li><li>Pag-optimize ng titles at descriptions</li><li>Pag-upload at pag-ayos ng blog posts</li><li>Google Business Profile updates</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Google Search Console</b>: Data mula mismo sa Google</li><li><b>Semrush o Ahrefs</b>: Keyword at competitor research</li><li><b>Google Business Profile</b>: Local SEO</li><li><b>WordPress</b>: Pag-edit ng content</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Basahin ang SEO guides ng Google</li><li>Aralin ang keyword research</li><li>Aralin ang on-page SEO</li><li>Mag-practice sa sariling blog</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://developers.google.com/search/docs" target="_blank" rel="noopener"><b>Google Search Central: SEO docs</b><span>Libreng opisyal na SEO guides ng Google, kasama ang SEO Starter Guide.</span></a><a class="course" href="https://www.semrush.com/academy/" target="_blank" rel="noopener"><b>Semrush Academy</b><span>Libreng SEO courses at exams.</span></a><a class="course" href="https://academy.hubspot.com/" target="_blank" rel="noopener"><b>HubSpot Academy</b><span>May libreng SEO course na may certificate.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng keyword list at i-optimize ang title at description ng 5 pages ng sample site.</p>
+</div></section><section class="sk" id="shopify"><div class="wrap">
+<h2>Shopify / Ecommerce VA</h2><p class="what">Ikaw ang tumutulong sa online store ng client: products, orders at customer support.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Pag-upload ng products at photos</li><li>Pag-process ng orders</li><li>Customer support para sa store</li><li>Simpleng email at discount setup</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Shopify</b>: Online store platform</li><li><b>Klaviyo</b>: Email para sa ecommerce</li><li><b>Gorgias</b>: Helpdesk para sa store</li><li><b>Canva</b>: Product images</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang Shopify admin</li><li>Matutong mag-upload at mag-ayos ng products</li><li>Aralin ang orders at returns</li><li>Gumawa ng sample store</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://www.shopifyacademy.com/" target="_blank" rel="noopener"><b>Shopify Academy</b><span>Maraming libreng courses ng Shopify. May bayad lang ang ilang skill badge exams.</span></a><a class="course" href="https://academy.klaviyo.com/" target="_blank" rel="noopener"><b>Klaviyo Academy</b><span>Libreng courses para sa ecommerce email.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng sample store na may 10 products, kumpleto sa descriptions at photos.</p>
+</div></section><section class="sk" id="amazon"><div class="wrap">
+<h2>Amazon VA</h2><p class="what">Ikaw ang tumutulong sa Amazon seller: listings, inventory, at pag-monitor ng account.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Paggawa at pag-ayos ng listings</li><li>Product research</li><li>Inventory at FBA shipments</li><li>Pag-monitor ng reviews at account health</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Amazon Seller Central</b>: Ang mismong seller account</li><li><b>Helium 10 o Jungle Scout</b>: Product at keyword research</li><li><b>Google Sheets</b>: Inventory tracking</li><li><b>Canva</b>: Listing images</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Panoorin ang basics sa Seller University</li><li>Aralin ang listings at keywords</li><li>Aralin ang FBA at inventory</li><li>Gumawa ng sample na listing</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://sell.amazon.com/learn/seller-university" target="_blank" rel="noopener"><b>Amazon Seller University</b><span>Libreng opisyal na training videos ng Amazon para sa sellers.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng sample product listing: title, bullet points at description na may keywords.</p>
+</div></section><section class="sk" id="video"><div class="wrap">
+<h2>Video Editing VA</h2><p class="what">Ikaw ang nag-e-edit ng videos ng client: reels, shorts at YouTube videos.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Short-form videos: reels at shorts</li><li>YouTube editing</li><li>Captions at subtitles</li><li>Thumbnails</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>CapCut</b>: Madali at mabilis para sa shorts</li><li><b>DaVinci Resolve</b>: Libre at pang-professional</li><li><b>Canva</b>: Thumbnails</li><li><b>Descript</b>: Editing gamit ang transcript</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Magsimula sa CapCut para sa shorts</li><li>Aralin ang cuts, captions at music</li><li>Aralin ang DaVinci Resolve para sa long-form</li><li>Gumawa ng 5 sample edits</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://www.capcut.com/resource/capcut-tutorial-for-beginners" target="_blank" rel="noopener"><b>CapCut Tutorial for Beginners</b><span>Libreng beginner guide ng CapCut.</span></a><a class="course" href="https://www.blackmagicdesign.com/products/davinciresolve/training" target="_blank" rel="noopener"><b>DaVinci Resolve Training</b><span>Libreng opisyal na training books at videos ng Blackmagic.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Mag-edit ng 3 reels mula sa isang mahabang video, may captions at hook sa unang 3 segundo.</p><p class="vid">Panoorin din: VA at AI Ep 8: AI Video Editing VA sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="writing"><div class="wrap">
+<h2>Copywriting / Content Writing VA</h2><p class="what">Ikaw ang nagsusulat ng blogs, captions, emails at website copy ng client.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Blog posts</li><li>Social media captions</li><li>Email copy</li><li>Product at website descriptions</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Google Docs</b>: Pagsusulat at comments</li><li><b>Grammarly</b>: Grammar check</li><li><b>AI tools</b>: Para sa draft at ideas</li><li><b>WordPress</b>: Pag-upload ng blogs</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Magbasa at magsulat araw-araw</li><li>Aralin ang content marketing basics</li><li>Matutong mag-edit ng sariling sulat</li><li>Gumawa ng 3 writing samples</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://academy.hubspot.com/" target="_blank" rel="noopener"><b>HubSpot Academy</b><span>May libreng content marketing course na may certificate.</span></a><a class="course" href="https://www.semrush.com/academy/" target="_blank" rel="noopener"><b>Semrush Academy</b><span>Libreng content marketing at SEO writing courses.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Sumulat ng isang blog post, isang email at tatlong captions para sa isang pretend na client.</p><p class="vid">Panoorin din: VA 101 Ep 28: Professional English para sa VA sa <a href="https://www.youtube.com/@ghlvalouie" target="_blank" rel="noopener">YouTube</a>.</p>
+</div></section><section class="sk" id="podcast"><div class="wrap">
+<h2>Podcast VA</h2><p class="what">Ikaw ang tumutulong sa podcast ng client: editing ng audio, show notes at pag-upload.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Audio editing at pagtanggal ng noise</li><li>Show notes at timestamps</li><li>Pag-upload sa podcast host</li><li>Short clips para sa social media</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Audacity</b>: Libreng audio editor</li><li><b>DaVinci Resolve (Fairlight)</b>: Audio at video sa isa</li><li><b>Descript</b>: Editing gamit ang transcript</li><li><b>CapCut</b>: Clips para sa social</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang Audacity basics</li><li>Matutong maglinis ng audio</li><li>Gumawa ng show notes template</li><li>Mag-edit ng sample episode</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://manual.audacityteam.org" target="_blank" rel="noopener"><b>Audacity Manual</b><span>Libreng opisyal na manual ng Audacity.</span></a><a class="course" href="https://www.blackmagicdesign.com/products/davinciresolve/training" target="_blank" rel="noopener"><b>DaVinci Resolve Training</b><span>Libreng training, kasama ang Fairlight audio.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Mag-edit ng 5-minute na audio, alisin ang noise, at gumawa ng show notes na may timestamps.</p>
+</div></section><section class="sk" id="ads"><div class="wrap">
+<h2>Paid Ads VA (Meta at Google Ads)</h2><p class="what">Ikaw ang tumutulong mag-setup at mag-monitor ng Facebook at Google ads ng client.</p>
+<div class="grid2"><div class="box"><h3>Karaniwang tasks</h3><ul><li>Pag-setup ng campaigns</li><li>Pag-upload ng ads at creatives</li><li>Pag-monitor ng results</li><li>Weekly ads report</li></ul></div><div class="box"><h3>Tools na gagamitin</h3><ul><li><b>Meta Ads Manager</b>: Facebook at Instagram ads</li><li><b>Google Ads</b>: Search at YouTube ads</li><li><b>Canva</b>: Ad creatives</li><li><b>Google Sheets</b>: Reports</li></ul></div></div>
+<div class="grid2"><div class="box"><h3>Paano matuto</h3><ol><li>Aralin ang ad structure: campaign, ad set, ad</li><li>Tapusin ang libreng courses ng Meta at Google</li><li>Matutong magbasa ng results</li><li>Gumawa ng sample ads report</li></ol></div><div class="box"><h3>Libreng courses</h3><div class="courses" style="margin-top:0"><a class="course" href="https://www.facebookblueprint.com/" target="_blank" rel="noopener"><b>Meta Blueprint</b><span>Libreng courses ng Meta para sa ads.</span></a><a class="course" href="https://skillshop.withgoogle.com/" target="_blank" rel="noopener"><b>Google Skillshop</b><span>Libreng Google Ads training at certifications.</span></a></div></div></div>
+<p class="proj"><b>Practice project para sa portfolio:</b> Gumawa ng sample ads plan at weekly report template para sa isang local business.</p>
+</div></section>
+<section class="sk"><div class="wrap"><h2>Kailangan ng GHL help?</h2><p class="what">Kung business owner ka at kailangan mo ng GoHighLevel setup, <a href="https://linkcore.space/6461" target="_blank" rel="noopener">mag-book ng call</a>. Para sa libreng templates at PDFs, bisitahin ang <a href="/resources/">Free VA resources</a>.</p></div></section>
+</main>
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Louie Dela Cruz. GoHighLevel, Facebook ads, AI lead scraping, websites and landing pages for businesses in Ireland, the UK and Australia.</span>
+    <nav class="areas" aria-label="Areas">
+      <a href="/gohighlevel-expert-ireland/">Ireland</a>
+      <a href="/gohighlevel-expert-uk/">UK</a>
+      <a href="/gohighlevel-expert-australia/">Australia</a>
+      <a href="/gohighlevel-setup-cost/">GoHighLevel setup cost</a>
+      <a href="/gohighlevel-for-tradies/">For tradies</a>
+      <a href="/case-studies/">Case studies</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <nav class="find" aria-label="Find me on">
+      <a href="https://www.linkedin.com/in/louie-ghl-expert" rel="me noopener" target="_blank">LinkedIn</a>
+      <a href="https://www.upwork.com/freelancers/~014944e2586fd3eac4" rel="me noopener" target="_blank">Upwork</a>
+      <a href="https://www.onlinejobs.ph/jobseekers/info/1032800" rel="me noopener" target="_blank">OnlineJobs.ph</a>
+      <a href="https://www.youtube.com/@ghlvalouie" rel="me noopener" target="_blank">YouTube</a>
+      <a href="mailto:louiedelacruz012417@gmail.com">louiedelacruz012417@gmail.com</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
+
