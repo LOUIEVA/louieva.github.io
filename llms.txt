@@ -70,6 +70,10 @@ Laid off from a BPO job during the pandemic, Louie was introduced to GoHighLevel
 - [GoHighLevel VA and admin support](https://louieva.github.io/services/gohighlevel-va-support/)
 
 ## More blog posts
+- [Texting customers in the UK: what PECR lets tradespeople send](https://louieva.github.io/blog/sms-marketing-rules-uk-tradespeople/): Service texts, marketing texts and the soft opt-in, explained for UK plumbers, electricians and builders. Plus the GoHighLevel setup I use.
+- [Marketing to past customers in Ireland: the 12-month rule, explained](https://louieva.github.io/blog/marketing-past-customers-ireland/): The five conditions for texting and emailing past customers in Ireland, the 12-month rule, and how I set it up in GoHighLevel.
+- [After-hours enquiries for Aussie tradies: how to reply in minutes](https://louieva.github.io/blog/after-hours-enquiries-australian-tradies/): Missed calls at night and on weekends, handled with instant SMS, AI and a simple urgent-job rule. Plus what the Spam Act means for your texts.
+- [Tradie lead generation in New Zealand: beyond Builderscrack](https://louieva.github.io/blog/tradie-lead-generation-new-zealand/): Lead sites vs your own lead flow for NZ tradies: Google, reviews, Facebook and fast follow-up. Plus what the anti-spam law means for your texts.
 - [Facebook ads for tradies: a simple setup that gets quote requests](https://louieva.github.io/blog/facebook-ads-for-tradies/): A plain setup for Facebook ads that bring in quote requests, not just likes.
 - [AI receptionist for small businesses: is it worth it?](https://louieva.github.io/blog/ai-receptionist-small-business/): What an AI receptionist can and can't do, and when it's worth it for a small business.
 - [Lead generation for tradesmen in the UK: build your own, stop renting it](https://louieva.github.io/blog/lead-generation-tradesmen-uk/): How UK trades businesses build their own lead flow instead of renting it from directories.
