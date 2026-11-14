@@ -24,6 +24,7 @@
 {
  "@context": "https://schema.org",
  "@graph": [
+  {"@type": "VideoObject", "name": "Case Study: Google Ads Said 330 Conversions, Only 113 Were Real (GoHighLevel Fix)", "description": "One Om School of Yoga: Google Ads said 330 conversions. Only 113 were real.", "thumbnailUrl": "https://louieva.github.io/images/videos/one-om-google-ads-tracking.webp", "uploadDate": "2026-11-14", "embedUrl": "https://www.youtube.com/embed/vJjIexXFfY4", "contentUrl": "https://www.youtube.com/watch?v=vJjIexXFfY4", "url": "https://louieva.github.io/case-studies/one-om-google-ads-tracking/", "author": {"@id": "https://louieva.github.io/#louie"}},
   {
    "@type": "WebPage",
    "@id": "https://louieva.github.io/case-studies/one-om-google-ads-tracking/#page",
@@ -379,6 +380,14 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 .areas{display:flex;flex-wrap:wrap;gap:6px 22px}
 @media (max-width:900px){.ph{grid-template-columns:minmax(0,1fr)}.ph .side .disc{width:260px;height:340px}.ph .side .disc::before{height:260px}.ph .side img{height:340px}}
 @media (max-width:600px){.ph h1{font-size:36px}.prose td{font-size:16px}}
+
+.yt{position:relative;display:block;aspect-ratio:16/9;background:#0B1220;border-radius:14px;overflow:hidden;cursor:pointer;box-shadow:0 18px 40px rgba(19,32,47,.18)}
+.yt img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.yt:hover img{transform:scale(1.03)}
+.yt .pl{position:absolute;left:50%;top:50%;width:74px;height:52px;margin:-26px 0 0 -37px;background:#FF0000;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.yt .pl:after{content:'';position:absolute;left:29px;top:15px;border-left:20px solid #fff;border-top:11px solid transparent;border-bottom:11px solid transparent}
+.yt iframe,.yt video{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vwatch{margin-top:18px;max-width:640px}
 </style>
 <style>
 .meta{margin-top:18px;font-size:15px;color:var(--muted)}
@@ -418,6 +427,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
     <a href="/#services">Services</a>
     <a href="/gohighlevel-for-tradies/">For tradies</a>
     <a href="/case-studies/">Case studies</a>
+    <a href="/videos/">Videos</a>
     <a href="/#pricing">Pricing</a>
     <a href="/blog/">Blog</a>
     <a href="/gohighlevel-setup-cost/">Costs guide</a>
@@ -442,7 +452,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 </div>
 <section style="padding-top:24px">
   <div class="wrap"><div class="prose">
-<div class="facts">
+<div class="vwatch" style="max-width:none;margin:0 0 30px"><p class="tg" style="font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--blue);margin-bottom:10px">Watch the 90-second video</p><a class="yt" data-id="vJjIexXFfY4" href="https://www.youtube.com/watch?v=vJjIexXFfY4" aria-label="Play: Case Study: Google Ads Said 330 Conversions, Only 113 Were Real (GoHighLevel Fix)" rel="noopener" target="_blank"><img src="/images/videos/one-om-google-ads-tracking.webp" alt="Case Study: Google Ads Said 330 Conversions, Only 113 Were Real (GoHighLevel Fix)" loading="lazy" width="640" height="360"><span class="pl"></span></a></div><div class="facts">
   <div><b>330 vs 113</b><span>Ads conversions vs real leads, before</span></div>
   <div><b>18 vs 17</b><span>Ads conversions vs real leads, after</span></div>
   <div><b>4 channels</b><span>Email, SMS, WhatsApp voice note, voicemail</span></div>
@@ -500,6 +510,7 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
       <a href="/gohighlevel-setup-cost/">GoHighLevel setup cost</a>
       <a href="/gohighlevel-for-tradies/">For tradies</a>
       <a href="/case-studies/">Case studies</a>
+      <a href="/videos/">Videos</a>
       <a href="/blog/">Blog</a>
     </nav>
     <nav class="find" aria-label="Find me on">
@@ -511,5 +522,9 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
     </nav>
   </div>
 </footer>
+<script>
+document.addEventListener('click',function(e){var a=e.target.closest('a.yt[data-id]');if(!a)return;e.preventDefault();
+a.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+a.dataset.id+'?autoplay=1&rel=0" title="'+(a.getAttribute('aria-label')||'Video')+'" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';});
+</script>
 </body>
 </html>
