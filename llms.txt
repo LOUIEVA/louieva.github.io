@@ -115,3 +115,8 @@ Louie Dela Cruz runs free GoHighLevel and virtual assistant training in Tagalog 
 - [VA at AI sa Tagalog](https://www.youtube.com/playlist?list=PLWjvzQHKUiE0): AI and automation for VAs.
 - [VA Challenges sa Tagalog](https://www.youtube.com/playlist?list=PLXkQVxEtdn28): real VA problems and fixes.
 - [Free VA templates](https://louieva.github.io/resources/): resume, proposal, SOP and AI prompt downloads, no sign-up.
+
+## Country case studies
+- [Case Study: Website and Quote Tracking for a Fencing Contractor in Ireland](https://louieva.github.io/case-studies/ireland-fencing-contractor/): Website rebuilt around a quote form that feeds GoHighLevel, set up for local SEO and AI search. Leads dashboard, Meta ads and a WhatsApp filter number are next. Video: https://www.youtube.com/watch?v=B4lz0cU8vUA
+- [Case Study: Estimate Follow-Up System for a Melbourne Trade Business](https://louieva.github.io/case-studies/australia-estimate-follow-up/): Reviewed the GoHighLevel account and planned the build: every estimate becomes a pipeline deal, AI follows up open quotes, and lost leads get a nurture. Video: https://www.youtube.com/watch?v=8RM6XbZ8juQ
+- [Case Study: AI Voice Agents and CRM Move for a UK Outdoor Living Company](https://louieva.github.io/case-studies/uk-outdoor-living-ai-calls/): Moved the CRM from HubSpot to GoHighLevel, built brochure and quote journeys, AI voice agents on the phone and website, team alerts with transcripts, and a reply alert agent. Video: https://www.youtube.com/watch?v=siIYkktnCw8

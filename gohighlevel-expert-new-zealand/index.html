@@ -29,6 +29,7 @@
 {
  "@context": "https://schema.org",
  "@graph": [
+  {"@type": "VideoObject", "name": "Case Study: Estimate Follow-Up System for a Melbourne Trade Business (GoHighLevel)", "description": "The GoHighLevel build plan for a Melbourne trade business: every estimate becomes a deal in the pipeline, with AI quote follow-up and a lost-lead nurture.", "thumbnailUrl": "https://louieva.github.io/images/videos/australia-estimate-follow-up.webp", "uploadDate": "2026-11-19", "embedUrl": "https://www.youtube.com/embed/8RM6XbZ8juQ", "contentUrl": "https://www.youtube.com/watch?v=8RM6XbZ8juQ", "url": "https://louieva.github.io/gohighlevel-expert-new-zealand/", "author": {"@id": "https://louieva.github.io/#louie"}},
   {
    "@type": "WebPage",
    "@id": "https://louieva.github.io/gohighlevel-expert-new-zealand/#page",
@@ -403,6 +404,14 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 .areas{display:flex;flex-wrap:wrap;gap:6px 22px}
 @media (max-width:900px){.ph{grid-template-columns:minmax(0,1fr)}.ph .side .disc{width:260px;height:340px}.ph .side .disc::before{height:260px}.ph .side img{height:340px}}
 @media (max-width:600px){.ph h1{font-size:36px}.prose td{font-size:16px}}
+
+.yt{position:relative;display:block;aspect-ratio:16/9;background:#0B1220;border-radius:14px;overflow:hidden;cursor:pointer;box-shadow:0 18px 40px rgba(19,32,47,.18)}
+.yt img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.yt:hover img{transform:scale(1.03)}
+.yt .pl{position:absolute;left:50%;top:50%;width:74px;height:52px;margin:-26px 0 0 -37px;background:#FF0000;border-radius:14px;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.yt .pl:after{content:'';position:absolute;left:29px;top:15px;border-left:20px solid #fff;border-top:11px solid transparent;border-bottom:11px solid transparent}
+.yt iframe,.yt video{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vwatch{margin-top:18px;max-width:640px}
 </style>
 </head>
 <body>
@@ -462,6 +471,10 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
 <h2>Time zone and contact</h2>
 <p>New Zealand is 4 to 5 hours ahead of the Philippines depending on daylight saving, so our working days overlap and calls are booked in your hours. You talk to me directly on WhatsApp, email or video, with backup internet and backup power on my side.</p>
 
+<h2>Case study from across the Tasman</h2>
+<p>A trade business in Melbourne, Australia. The same estimate follow-up setup works for Kiwi trade businesses. <a href="/case-studies/australia-estimate-follow-up/">Read the case study</a>.</p>
+<div class="vwatch" style="max-width:640px;margin:18px 0 34px"><a class="yt" data-id="8RM6XbZ8juQ" href="https://www.youtube.com/watch?v=8RM6XbZ8juQ" aria-label="Play: Case Study: Estimate Follow-Up System for a Melbourne Trade Business (GoHighLevel)" rel="noopener" target="_blank"><img src="/images/videos/australia-estimate-follow-up.webp" alt="Case Study: Estimate Follow-Up System for a Melbourne Trade Business (GoHighLevel)" loading="lazy" width="640" height="360"><span class="pl"></span></a></div>
+
 <h2>Recent results</h2>
 <ul>
 <li><b>Primal Breath &amp; Coaching</b> (Australia): rebuilt the event booking funnel, qualification form and reminders. About 80% of booked participants showed up. <a href="/case-studies/primal-breath-event-funnel/">Read the case study</a>.</li>
@@ -518,6 +531,10 @@ footer a{display:inline-flex;align-items:center;min-height:44px}
     </nav>
   </div>
 </footer>
+<script>
+document.addEventListener('click',function(e){var a=e.target.closest('a.yt[data-id]');if(!a)return;e.preventDefault();
+a.innerHTML='<iframe src="https://www.youtube-nocookie.com/embed/'+a.dataset.id+'?autoplay=1&rel=0" title="'+(a.getAttribute('aria-label')||'Video')+'" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';});
+</script>
 <!-- wa-float -->
 <style>
 .wa-float{position:fixed;right:20px;bottom:20px;z-index:9999;display:flex;align-items:center;gap:10px;height:60px;padding:0 16px;border-radius:999px;background:#1FA855;color:#fff;text-decoration:none;font:600 15px/1 Inter,system-ui,sans-serif;box-shadow:0 8px 24px rgba(16,24,40,.22);opacity:0;transform:translateY(16px);pointer-events:none;transition:opacity .25s,transform .25s,background .2s}
